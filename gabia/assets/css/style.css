@@ -1,7 +1,7 @@
 /* layout */
 #wrap {}
 #header {height: 89px; border-bottom: 1px solid #efefef;}
-#banner {height: 550px; background: url(../img/banner-bg3.jpg) no-repeat center top; }
+#banner {height: 550px; background: url(../img/banner-bg1.jpg) no-repeat center top; }
 #sbanner {border-top: 1px solid #efefef;}
 #select {background-color: #1d7abd;}
 #infor { }
@@ -25,6 +25,12 @@
 
 /* container */
 .container {width: 1180px; height: inherit; /* background-color:rgba(0,0,0,0.5); */ margin:0 auto; }
+
+
+/* skip */
+.skip {position: relative;}
+.skip a {position: absolute; left: 0; top: -50px; width: 140px; border: 1px solid #444; background-color: #333; color:#fff; text-align: center; padding: 10px 0;}
+.skip a:focus, .skip a:active {top: 0;}
 
 /* header */
 .header {overflow: hidden;  }
