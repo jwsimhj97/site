@@ -60,6 +60,11 @@ position: absolute; right: 0; top: 1px; }
 .select > div  h4 {font-size: 18px; color: #fff; padding-bottom: 20px;  }
 .select > div  p {font-size: 15px; color: #fff;  }
 
+
+
+
+
+
 /* infor */
 .infor {padding: 70px 0; text-align: center;}
 .infor h3 {font-size: 40px; padding-bottom: 20px; font-weight: 300;   }
@@ -164,9 +169,9 @@ position: absolute; right: 0; top: 1px; }
 .sub-banner .sb-right {float: right; width: 410px; padding-top: 15px;}
 .sub-banner .sb-right li {display: inline; margin-left:10px;}
 .sub-banner .sb-right li a {display: inline-block;color:#b2ddf9;font-size: 18px; border:2px solid #b2ddf9; border-radius: 50px; width: 65px; height: 50px; padding-left: 55px; line-height: 50px;}
-.sub-banner .sb-right ul li.icon1 a{background: url(../img/ico_subtop_spec.png) no-repeat 18px 13px ; }
-.sub-banner .sb-right ul li.icon2 a{background: url(../img/ico_subtop_feature.png) no-repeat 18px 13px ;}
-.sub-banner .sb-right ul li.icon3 a{background: url(../img/ico_subtop_faq.png) no-repeat 18px 13px ;}
+.sub-banner .sb-right .icon1 a{background: url(../img/ico_subtop_spec.png) no-repeat 18px 13px ; }
+.sub-banner .sb-right .icon2 a{background: url(../img/ico_subtop_feature.png) no-repeat 18px 13px ;}
+.sub-banner .sb-right .icon3 a{background: url(../img/ico_subtop_faq.png) no-repeat 18px 13px ;}
 .sub-banner .sb-right li a:hover {color:#fff; border-color: #fff;}
 
 
@@ -238,7 +243,7 @@ position: absolute; right: 0; top: 1px; }
 .table-style1 tbody tr .tb-td5 span {font-size: 16px;}
 .table-style1 tbody tr .tb-td5 a {border: 1px solid #3090d6; background-color: #3090d6; color:#fff; padding:7px 25px;} */
 
-/* select2 */
+/* select2
 .select2 {overflow: hidden; padding: 80px 0; }
 .select2 h3 {float: left; font-size: 40px; color:#fff; width: 400px; font-weight: 300; }
 .select2 > div { color:#fff; padding: 3%; width: 25%; height: 300px;}
@@ -251,7 +256,29 @@ position: absolute; right: 0; top: 1px; }
 .select2 > div.sel-2 ul {}
 .select2 > div.sel-2  .sel-21  {margin-bottom: 70px;}
 .select2 > div.sel-2  .sel-22 {font-size: 18px; margin-bottom: 10px; }
-.select2 > div.sel-2  .sel-23 {font-size: 15px; font-weight: 300; }
+.select2 > div.sel-2  .sel-23 {font-size: 15px; font-weight: 300; } */
+
+/* select2 */
+.select2 {overflow: hidden; padding: 70px 0;}
+.select2 h3{float: left; width: 33.3333%; font-size: 40px; color:#fff;  }
+.select2 > div {float: left; width: 25.8333%; margin-left: 1.5%; padding: 3%; height: 300px;}
+.select2 > div.simg1 {background: #2886ca url(../img/select2_icon1.png) no-repeat 30px 30px; background-size: 80px; }
+.select2 > div.simg2 {background: #2886ca url(../img/select2_icon2.png) no-repeat 30px 30px; background-size: 90px; }
+.select2 > div  h4 {font-size: 18px; color: #fff; padding-bottom: 20px;  padding-top: 150px;}
+.select2 > div  p {font-size: 15px; color: #fff;  }
+
+/* select5 */
+.select5 {overflow: hidden; padding: 70px 0;}
+.select5 h3{float: left; width:32.333%; font-size: 40px; color:#fff; margin-right: 1.5%;}
+.select5 > div {float: left; width: 26.333%; margin-right: 1.5%; margin-bottom: 1.5%;padding: 3%; height: 300px;}
+.select5 > div.simg1 {background: #2886ca url(../img/select2_icon1.png) no-repeat 30px 30px; background-size: 80px; }
+.select5 > div.simg2 {background: #2886ca url(../img/select2_icon2.png) no-repeat 30px 30px; background-size: 90px;  margin-right: 0%;}
+.select5 > div.simg3 {background: #2886ca url(../img/select2_icon1.png) no-repeat 30px 30px; background-size: 80px; }
+.select5 > div.simg4 {background: #2886ca url(../img/select2_icon1.png) no-repeat 30px 30px; background-size: 80px; }
+.select5 > div.simg5 {background: #2886ca url(../img/select2_icon1.png) no-repeat 30px 30px; background-size: 80px; margin-right: 0%;}
+.select5 > div  h4 {font-size: 18px; color: #fff; padding-bottom: 20px;  padding-top: 150px;}
+.select5 > div  p {font-size: 15px; color: #fff;  }
+
 
 /* select3 */
 .select3{ padding: 70px 0; text-align:center; overflow: hidden;}
